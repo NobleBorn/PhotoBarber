@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PhotoBarber
 
-## Getting Started
+**PhotoBarber** is a free, browser-based platform offering simple and accessible tools for editing and converting images, without accounts, subscriptions, or usage limits.
 
-First, run the development server:
+## 💡 The Idea
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The idea behind PhotoBarber came from my own experience. I frequently need to resize, crop, compress, or convert images, but many online tools impose file limits, usage restrictions, or require subscriptions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+So I thought, **why not build my own?**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+PhotoBarber is my attempt to create a simple, convenient, and unrestricted collection of image tools that anyone can use.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Features
 
-## Learn More
+- **Resize Images** — Resize by pixels or percentage.
+- **Crop Images** — Crop visually or using precise dimensions.
+- **Rotate Images** — Rotate and flip images.
+- **Compress Images** — Reduce file sizes while preserving quality.
+- **Convert Images** — Convert between different image formats.
+- **Watermark Images** — Add text or image watermarks.
+- **QR Code Generator** — Create and customize QR codes.
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- React & TypeScript
+- Tailwind CSS
+- Browser Canvas API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Image processing is primarily performed locally in the browser, helping keep images private without requiring server uploads.
 
-## Deploy on Vercel
+## 🎯 Project Goals
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Keep image editing **free, simple, private, and accessible to everyone**, without unnecessary restrictions or complexity.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Built out of personal need, curiosity, and a passion for software development.
